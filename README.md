@@ -29,12 +29,14 @@ ubuntu config php with docker, the dockefile from https://hub.docker.com/r/inbla
 - tidy
 - zip
 
-# follow:
+# Flow:
 
 ## 0、install docker
 > by yourself
 
 ## 1、docker build image
+
+with current directory:
 
 ```
 docker build -t php56-latest -f php56-latest.docker .
